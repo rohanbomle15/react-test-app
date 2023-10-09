@@ -13,3 +13,8 @@ Dependencies/Framework/Concept used:
 4. MUI - library to build rich/beautiful user interface
 5. React Hooks - simple JavaScript functions that we can use to isolate the reusable part from a functional component. 
 
+
+![Application](1.png)
+![Application-Error](2.png)
+![Application-Dialog](3.png)
+![Application-Success](2.png)
