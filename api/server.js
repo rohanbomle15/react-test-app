@@ -27,7 +27,6 @@ app.get('/api/users',(req, res)=>{
 })
 
 app.post('/api/adduser', multer().none(),(req, res)=>{
-  database.collection("userdata").count({}, function(error, numOfDocs){
     database.collection("userdata").insertOne({
       name:req.body.name,
       age:req.body.age,
@@ -35,5 +34,4 @@ app.post('/api/adduser', multer().none(),(req, res)=>{
       country:req.body.country
     });
     res.json("Success")
-  })
 })
